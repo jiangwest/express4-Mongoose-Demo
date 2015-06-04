@@ -6,3 +6,15 @@ express 4 与 Mongodb 应用示例
 另外，原代码编程不规范，例如变量`task`到处乱用，使人迷惑；结构也不佳。
 原书采用jade模板，本想改为ejs，但后者也不好用，就沿用书上jade代码。
 
+
+编码详细过程参考[demo Wiki](https://github.com/jiangwest/express4-Mongoose-Demo/wiki)
+
+
+白鹿洞二首·其一
+
+唐代 王贞白
+
+
+读书不觉已春深，一寸光阴一寸金。
+
+不是道人来引笑，周情孔思正追寻。
