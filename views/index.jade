@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  h1 Your Mongodb tasks
+  - if(docs)
+    table
+      tr
+        th Task
+          - each item in docs
+            tr
+              td #{item.task}
+              td 
+                a.btn(href="/task/#{item.id}/edit") Edit
+              td
+                form(method='post',action='/task/'+item.id)
+                  input(name='_method', value='DELETE', type='hidden')
+                  button.btn(type='submit') Delete
+  - else
+    p You don't have any tasks
+
+
+  p
+    a(href='/task/new',class='btn primary') Add a Task
