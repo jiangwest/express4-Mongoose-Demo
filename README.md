@@ -9,7 +9,8 @@ express 4 与 Mongodb 应用示例
 
 编码详细过程参考[demo Wiki](https://github.com/jiangwest/express4-Mongoose-Demo/wiki)
 
------------
+一篇详细 [前端快速掌握 nodejs+mongodb+express+jade](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/)
+
 -----------
 白鹿洞二首·其一
 
